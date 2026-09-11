@@ -1,0 +1,24 @@
+
+*.backup
+
+# NuGet packages are restored at build time, not redistributed. The Agility SDK
+# under samples/**/packages/ ships under Microsoft's terms, not MIT.
+packages/
+
+# CMake build tree for the static library target
+/build/
+
+# Visual Studio build output and user state
+.vs/
+*.user
+*.suo
+*.pdb
+*.ilk
+*.obj
+*.tlog
+samples/**/[Bb]in/
+samples/**/[Oo]bj/
+samples/**/[Dd]ebug/
+samples/**/[Rr]elease/
+samples/**/x64/
+samples/**/Win32/
